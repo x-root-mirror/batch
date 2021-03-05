@@ -268,7 +268,7 @@ function showAnimeDetail(a) {
                 <table class="table">
                 <thead>
                       <tr>
-                        <th width="30%" align="left">Episode</th>
+                        <th width="30%" align="left">#</th>
                         <th width="70%" align="left">Link</th>
                       </tr>
                     </thead>
