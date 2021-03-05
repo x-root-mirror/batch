@@ -40,7 +40,7 @@ let load2 = `<div style="margin-top:250px" class="text-center"><strong>Loading m
 	</div>
 </div> `;
 
-const apiUrl = "http://147.139.170.159:4141/";
+
 const apiUrlBatch = "https://kusonime-scrapper.glitch.me/api/";
 $('#btn-cari').on('click', function () {
 	searchAnime();
@@ -291,33 +291,7 @@ function showAnimeDetail_(a) {
 		episodeString += '<td width="70%" align="left"> <a href="' + a.list_episode[i].link + '">Download</a></td>';
 		episodeString += '<tr>';
 	}
-	// let linkString = '';
-	// for (let i = 0; i < a.list_episode.length; i++) {
-	// 	linkString += '<td> <a href=">'+a.list_episode[i].link +'">Download</a></td></tr>';
-	// }
-	// let typ = '';
-	// for (let i = 0; i < a.detail.length; i++) {
-	// 	detail += a.detail[i]. + ', ';
-	// }
-	// let producer_string = '';
-	// for (let i = 0; i < a.producers.length; i++) {
-	// 	producer_string += a.producers[i].name + ', ';
-	// }
-	// let licensor_string = '';
-	// for (let i = 0; i < a.licensors.length; i++) {
-	// 	licensor_string += a.licensors[i].name + ', ';
-	// }
-	// let studio_string = '';
-	// for (let i = 0; i < a.studios.length; i++) {
-	// 	studio_string += a.studios[i].name + ', ';
-	// }
-
-	// const year = a.aired.prop.to.year;
-	// const aired = a.aired.string;
-
-	// if (a.episodes == null) {
-	// 	a.episodes = '-';
-	// }
+	
 	let detail = a.detail;
 	return `<div class="container-fluid">
             <div class="row">
